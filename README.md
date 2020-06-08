@@ -17,3 +17,8 @@ Linear regression models are often fitted using the least squares approach, but 
 Surface Plots are used to
 * Visualise Loss Function in Machine Learning And Deep Learning
 * Visualise State or State Value Functions in Reinforcement Learning
+
+## An Efficent Implemenation for Linear Regression using Vectorization
+
+* Avoid loops in the implemenation, except gradient descent main loop
+* Use numpy functions like np.sum(), np.dot() which are quite fast and already optimised
